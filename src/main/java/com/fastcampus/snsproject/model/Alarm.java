@@ -10,7 +10,7 @@ import java.sql.Timestamp;
 @Getter
 @AllArgsConstructor
 public class Alarm {
-
+    //수정 완료.
     private Integer id;
     private AlarmType alarmType;
     private AlarmArgs args;
