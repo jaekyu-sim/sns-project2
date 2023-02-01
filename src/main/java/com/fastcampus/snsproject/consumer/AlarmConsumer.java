@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 public class AlarmConsumer {
 
-    //AlarmService 가 강의내용엔 구현되어있지 않아서 구현하지 않았습니다.
+    //AlarmService 가 강의내용엔 구현되어있지 않아서 구현하지 않았습니다
     //private final AlarmService alarmService;
 
     @KafkaListener(topics = "${spring.kafka.topic.alarm}")
